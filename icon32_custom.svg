@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Custom icon">
+  <!-- Background hexagon (teal) -->
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#45b39a"/>
+      <stop offset="1" stop-color="#43a48f"/>
+    </linearGradient>
+  </defs>
+  <polygon points="16,2 29,10 25,26 7,26 3,10" fill="url(#lg)"/>
+  <!-- White T shape (like Tether-style) -->
+  <g transform="translate(6,6)" fill="#ffffff">
+    <rect x="4" y="0" width="12" height="4" rx="0.8" />
+    <rect x="8" y="0" width="4" height="12" rx="0.6" />
+    <!-- ring/oval -->
+    <ellipse cx="10" cy="9.5" rx="7" ry="2.4" fill="none" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <!-- Small Binance circle overlay at bottom-right -->
+  <g transform="translate(18,18)">
+    <circle cx="6" cy="6" r="6" fill="#23262b"/>
+    <!-- Binance diamond elements (simplified) -->
+    <g fill="#f3b000" transform="translate(1,1) scale(0.7)">
+      <rect x="5" y="0" width="2.4" height="2.4" transform="rotate(45 6.2 1.2)"/>
+      <rect x="0" y="5" width="2.4" height="2.4" transform="rotate(45 1.2 6.2)"/>
+      <rect x="10" y="5" width="2.4" height="2.4" transform="rotate(45 11.2 6.2)"/>
+      <rect x="5" y="10" width="2.4" height="2.4" transform="rotate(45 6.2 11.2)"/>
+      <rect x="5" y="5" width="2.4" height="2.4" transform="rotate(45 6.2 6.2)"/>
+    </g>
+  </g>
+</svg>
